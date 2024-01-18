@@ -8,11 +8,11 @@ public class PagingResponse {
     
     private Integer totalPages;
     
-    private Long size;
+    private Integer size;
     
     public PagingResponse() { }
     
-    public PagingResponse(Long totalElements, Integer totalPages, Long size) {
+    public PagingResponse(Long totalElements, Integer totalPages, Integer size) {
         this.totalElements = totalElements;
         this.totalPages = totalPages;
         this.size = size;
